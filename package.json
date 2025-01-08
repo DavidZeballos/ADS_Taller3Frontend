@@ -2,6 +2,7 @@
   "name": "parknmove-frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://adstaller3frontend.web.app/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -14,7 +15,6 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.6.0",
     "bootstrap": "^5.3.2",
-    "cross-env": "^7.0.3",
     "jwt-decode": "^4.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.1",
@@ -31,7 +31,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=false react-scripts build",
+    "build": "cross-env CI=false react-scripts build",
     "test": "jest",
     "eject": "react-scripts eject"
   },
@@ -58,6 +58,7 @@
     "@babel/preset-env": "^7.23.5",
     "@babel/preset-react": "^7.23.3",
     "babel-jest": "^29.7.0",
+    "cross-env": "^7.0.3",
     "jest-fetch-mock": "^3.0.3"
   },
   "jest": {
